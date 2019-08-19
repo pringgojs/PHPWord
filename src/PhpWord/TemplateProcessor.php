@@ -1007,7 +1007,7 @@ class TemplateProcessor
      * Handling bug when setValue
      * Usage. 
      * $search_replace_array = array(
-     *       'ship'=> 'Verry', #inside a MS Word file ${kapal} will change to Verry
+     *       'ship'=> 'Verry', #inside a MS Word file ${ship} will change to Verry
      *       'date'=> '14 Juni 1995' #${date} will change to 14 Juni 1995
      *  );
      * $phpword->setValueAdvanced($search_replace_array);
